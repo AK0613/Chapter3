@@ -8,7 +8,7 @@ namespace Chapter3
         static void Main(string[] args)
         {
 
-            string choice;
+            string? choice;
             int problem;
 
             Console.WriteLine("Problems from the book. Chapter 1");
@@ -57,7 +57,7 @@ namespace Chapter3
 
         private static int Menu()
         {
-            string input;
+            string? input;
             int problem;
             bool valid;
 
@@ -255,6 +255,9 @@ namespace Chapter3
                 return flag;
             }
         }
+        #endregion
+
+        
     }
-    #endregion
+
 }
